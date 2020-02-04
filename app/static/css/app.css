@@ -1,3 +1,89 @@
 body {
     padding-top: 5rem;
 }
+#head{
+    background-color: rgb(86,153,98); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(132, 192, 144), rgb(86,153,98)); /* Standard syntax (must be last) */
+    color: white;
+    /* border-radius: 3%; */
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    text-align: center;
+    display:block;
+    padding: 10px;
+    margin:0;
+    padding-bottom: 0.25px;
+}
+#head p{
+    color: rgb(218, 221, 219);
+}
+#profilepic{
+    width:40%;
+}
+
+#header{
+    margin: 0; 
+    padding: 0;
+
+}
+#about{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 0;
+    text-align: left;
+    
+    
+
+}
+#about p{
+    color: rgb(137, 141, 138);
+
+}
+#mainabout{
+    border: rgb(160, 160, 160) solid 1px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    align-content: center;
+}
+li {  display:inline-block;
+    vertical-align:middle;}
+#counters{
+    text-align: center;
+}
+ #numbers li{
+    margin-right: 60px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+/* #numpost{
+    margin-right: 90px;
+
+}*/
+/* #numfollowing{
+    margin-left: 10px;
+}
+#numfollowers{
+    margin-left: 20px;
+}  */ 
+#varibles li{
+    margin-top:0;
+    margin-right: 40px;
+    color: rgb(137, 141, 138);
+
+}
+#btn{
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#btn button{
+    background-color: rgb(128, 221, 57);
+    color:white;
+    padding:10px;
+    width:40%;
+    border-radius: 10px;
+}
