@@ -31,7 +31,7 @@ def about():
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html',date=format_date_joined(datetime.datetime.now()),name="Mary Jane",username="mjane")
+    return render_template('profile.html',date=format_date_joined(datetime.datetime.now()),name="Jordanne Dale",username="__jord.anne__")
 ###
 # The functions below should be applicable to all Flask apps.
 ###
